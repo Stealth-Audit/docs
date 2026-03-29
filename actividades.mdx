@@ -1,0 +1,64 @@
+---
+title: "Actividades"
+description: "Gestiona el checklist de tareas diarias de control"
+---
+
+## ¿Para qué sirve?
+
+El módulo de Actividades te permite registrar el cumplimiento de las tareas de control programadas para cada día. Es como un checklist: el equipo marca qué se cumplió y qué no, y el sistema guarda el registro automáticamente.
+
+## Configuración inicial
+
+Antes de usar este módulo, configura los tipos de actividades en [**Configuración → Actividades de Control**](/configuracion/actividades-config):
+
+<img src="/images/configuracion/actividades.png" alt="Configuración de actividades de control" />
+
+### ¿Qué es un tipo de actividad?
+
+Un **tipo de actividad** es una categoría que agrupa tareas relacionadas. Por ejemplo:
+- *Verificación de temperaturas* — agrupa todas las tareas de revisión de equipos de frío
+- *Limpieza de equipos* — agrupa las tareas de aseo de maquinaria
+
+Cada tipo de actividad tiene sus propias tareas asociadas. Al crear un tipo, defines también las **tareas individuales** que lo componen: qué debe verificarse, en qué zona y con qué frecuencia.
+
+Esto importa porque en el historial los datos se agrupan por tipo de actividad, lo que te permite ver el cumplimiento por categoría a lo largo del tiempo.
+
+Para cada tipo de actividad define:
+- **Nombre e ícono**: para identificarla fácilmente en el checklist
+- **Asignación**: a qué usuarios o grupos aplica (todos, un grupo específico, o una persona)
+- **Frecuencia**: diaria, semanal o días específicos
+
+## Cómo registrar actividades del día
+
+1. Ve al módulo **Actividades** desde el menú lateral
+2. Verás el checklist con todas las actividades programadas para hoy
+
+<img src="/images/actividades/checklist.png" alt="Checklist de actividades diarias" />
+
+3. Para cada actividad, selecciona:
+   - ✅ **Cumple** — si la tarea se realizó correctamente
+   - ❌ **No Cumple** — si no se cumplió o hubo un problema
+4. Si marcas **No Cumple**, puedes agregar una observación explicando qué pasó
+5. Cuando termines, haz clic en **Guardar**
+
+## Acciones correctivas
+
+Cuando alguna actividad se marca como **No Cumple** o se detecta un problema en una inspección, el sistema genera automáticamente una **Acción Correctiva**.
+
+<img src="/images/actividades/acciones-correctivas.png" alt="Sección de acciones correctivas" />
+
+En esta sección puedes ver:
+- La descripción del problema
+- Qué acción se debe tomar
+- La fecha límite para resolverlo (en rojo si está vencida, en amarillo si vence pronto)
+- El origen del problema ([Inspección](/inspecciones), [Temperatura](/temperatura), [Control de Plagas](/plagas), etc.)
+
+Para marcar una acción como resuelta, haz clic en el botón de completar junto a la acción.
+
+## Cómo ver el historial
+
+Haz clic en la pestaña **Historial** para consultar los registros de actividades anteriores.
+
+<img src="/images/actividades/historial.png" alt="Historial de actividades" />
+
+Puedes filtrar por tipo de actividad, rango de fechas y usuario para encontrar registros específicos.

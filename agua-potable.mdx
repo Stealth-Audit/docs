@@ -1,0 +1,61 @@
+---
+title: "Control de Agua Potable"
+description: "Verifica y registra la calidad del agua en los puntos de muestreo de tu establecimiento"
+---
+
+## ¿Para qué sirve?
+
+El módulo de Agua Potable te permite registrar mediciones de cloro residual y pH del agua en los diferentes puntos de muestreo de tu instalación. El sistema determina automáticamente si el agua es **potable** o **no potable** según los valores registrados.
+
+## Configuración inicial
+
+Antes de usar este módulo, configura los puntos de muestreo en [**Configuración → Establecimiento → Puntos de Agua**](/configuracion/establecimiento):
+
+<img src="/images/configuracion/puntos-agua.png" alt="Configuración de puntos de agua" />
+
+Para cada punto define:
+- **Nombre**: ej. "Grifo cocina principal", "Tanque de almacenamiento"
+- **Tipo de ubicación**
+
+## Cómo registrar una medición de agua
+
+1. Ve al módulo **Agua Potable** desde el menú lateral
+2. Haz clic en **Agregar Registro**
+
+<img src="/images/agua/formulario.png" alt="Formulario de registro de agua potable" />
+
+3. Completa los campos:
+   - **Punto de muestreo**: selecciona el lugar donde tomaste la muestra
+   - **Cloro residual (mg/L)**: ingresa el valor medido
+   - **pH**: ingresa el valor medido
+   - **Observaciones**: agrega cualquier nota (opcional)
+4. El sistema indica automáticamente si el agua es **potable** o **no potable**:
+   - Cloro residual entre 0.2 y 1.0 mg/L = dentro del rango
+   - pH entre 6.5 y 8.5 = dentro del rango
+5. Haz clic en **Guardar**
+
+## Acciones correctivas
+
+Si el sistema detecta agua **no potable**, abre automáticamente el formulario de acción correctiva:
+
+<img src="/images/agua/accion-correctiva.png" alt="Formulario de acción correctiva por agua no potable" />
+
+Debes completar:
+- **Quién** debe atender la corrección (usuario, grupo o todos)
+- **Fecha límite** para resolver el problema
+- La **acción a tomar** (ej. aplicar tratamiento de cloración)
+
+Las alertas de agua no potable también aparecen en el [**Panel Principal**](/panel-principal).
+
+## Cómo ver el historial
+
+En la misma página puedes consultar todos los registros anteriores con sus resultados.
+
+<img src="/images/agua/registro.png" alt="Historial de control de agua potable" />
+
+Puedes filtrar por:
+- **Punto de muestreo**
+- **Estado**: potable / no potable
+- **Período**: últimos 7, 30 o 90 días
+
+El historial incluye gráficas de evolución de cloro y pH para que puedas identificar tendencias fácilmente.

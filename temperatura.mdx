@@ -1,0 +1,60 @@
+---
+title: "Trazabilidad Térmica"
+description: "Monitorea las temperaturas de tus equipos de refrigeración y conservación"
+---
+
+## ¿Para qué sirve?
+
+El módulo de Trazabilidad Térmica te permite registrar las temperaturas de tus equipos (neveras, congeladores, cámaras de frío, etc.) y verificar que estén dentro del rango seguro configurado. Si una temperatura está fuera del rango, el sistema genera una alerta y solicita una acción correctiva automáticamente.
+
+## Configuración inicial
+
+Antes de registrar temperaturas, configura los equipos en [**Configuración → Temperatura**](/configuracion/temperatura-config):
+
+<img src="/images/configuracion/temperatura.png" alt="Configuración de trazabilidad térmica" />
+
+Para cada equipo define:
+- **La superficie o equipo** a monitorear
+- **Temperatura mínima y máxima** permitidas
+- **Instrucciones de corrección**: qué debe hacer el operador si la temperatura está fuera de rango
+
+## Cómo registrar una temperatura
+
+1. Ve al módulo **Temperatura** desde el menú lateral
+2. En la pestaña **Registro**, selecciona el equipo que vas a medir
+
+<img src="/images/temperatura/registro.png" alt="Formulario de registro de temperatura" />
+
+3. Ingresa la temperatura medida. El sistema indicará en tiempo real si está:
+   - ✅ **Dentro del rango** — temperatura normal (fondo verde)
+   - 🔴 **Fuera de rango** — temperatura crítica (fondo rojo)
+
+<img src="/images/temperatura/fuera-rango.png" alt="Indicador de temperatura fuera de rango" />
+
+4. Haz clic en **Registrar Temperatura**
+
+## Acciones correctivas
+
+Si la temperatura registrada está **fuera del rango** permitido, el sistema muestra una alerta inmediata y abre el formulario de acción correctiva:
+
+<img src="/images/temperatura/accion-correctiva.png" alt="Formulario de acción correctiva por temperatura fuera de rango" />
+
+Completa:
+- **Quién** debe atender la corrección (usuario, grupo o todos)
+- **Fecha límite** para resolver el problema
+- La **acción a tomar** ya viene pre-cargada con las instrucciones configuradas
+
+Las alertas de temperatura fuera de rango también aparecen en el [**Panel Principal**](/panel-principal) para que el equipo pueda actuar rápidamente.
+
+## Cómo ver el historial
+
+Haz clic en la pestaña **Historial** para consultar las mediciones anteriores.
+
+<img src="/images/temperatura/historial.png" alt="Historial de temperaturas" />
+
+Puedes filtrar por:
+- **Equipo**: selecciona uno o varios equipos específicos
+- **Período**: últimos 7, 30 o 90 días, o un rango personalizado
+- **Estado**: todas las mediciones, solo las normales o solo las fuera de rango
+
+El historial muestra gráficas de tendencia para cada equipo, lo que te ayuda a identificar patrones o fallas recurrentes.

@@ -1,0 +1,44 @@
+---
+title: "Configurar Temperatura"
+description: "Define los rangos de temperatura aceptables para cada equipo"
+---
+
+## ¿Para qué sirve?
+
+Aquí configuras cada equipo de refrigeración o conservación que necesitas monitorear y defines cuáles son sus temperaturas mínima y máxima aceptables. El sistema usará estos valores para determinar si una lectura está dentro o fuera del rango.
+
+## Cómo acceder
+
+Ve a **Configuración → Temperatura** desde el menú lateral.
+
+<img src="/images/configuracion/temperatura.png" alt="Configuración de trazabilidad térmica" />
+
+## Cómo configurar un equipo
+
+1. Haz clic en **Nueva Configuración**
+2. Se abrirá el formulario:
+
+<img src="/images/configuracion/temperatura-form.png" alt="Formulario para configurar un equipo de temperatura" />
+
+3. Completa la información:
+   - **Superficie**: selecciona el equipo desde la lista de superficies configuradas en [Establecimiento](/configuracion/establecimiento)
+   - **Temperatura mínima** (opcional): el valor más bajo aceptable
+   - **Temperatura máxima**: el valor más alto aceptable
+   - **Instrucciones de corrección**: qué debe hacer el operador si la temperatura está fuera de rango (ej. "Verificar el sello de la puerta y reportar al técnico")
+4. Activa la configuración con el interruptor
+5. Haz clic en **Guardar**
+
+## Ejemplo de configuración
+
+| Equipo | Temp. mínima | Temp. máxima |
+|--------|-------------|-------------|
+| Nevera de lácteos | 2°C | 8°C |
+| Congelador de carnes | -20°C | -15°C |
+| Cámara de frutas | 4°C | 12°C |
+
+## ¿Qué pasa si la temperatura está fuera de rango?
+
+Cuando un operador registra una temperatura fuera del rango configurado, el sistema:
+1. Muestra una alerta inmediata
+2. Solicita la creación de una [Acción Correctiva](/actividades)
+3. Muestra la alerta en el [Panel Principal](/panel-principal) para que el equipo actúe rápido

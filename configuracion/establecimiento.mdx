@@ -1,0 +1,66 @@
+---
+title: "Establecimiento"
+description: "Configura las zonas, superficies, agentes de limpieza y puntos de agua de tu instalación"
+---
+
+## ¿Para qué sirve?
+
+Esta sección es la base de toda la plataforma. Aquí defines la estructura física de tu establecimiento: las zonas que tiene, las superficies dentro de cada zona, los productos de limpieza que usas y los puntos de muestreo de agua.
+
+## Cómo acceder
+
+Ve a **Configuración → Establecimiento** desde el menú lateral.
+
+## Zonas
+
+Las zonas son las áreas principales de tu establecimiento (ej: cocina, bodega, área de preparación, baños).
+
+<img src="/images/configuracion/zonas.png" alt="Configuración de zonas" />
+
+Para crear una zona:
+1. Haz clic en **Nueva Zona**
+2. Escribe el nombre y una descripción opcional
+3. Haz clic en **Guardar**
+
+## Superficies
+
+Las superficies son los elementos dentro de cada zona que se limpian o monitorean (ej: mesón de preparación, estante de almacenamiento, equipo de refrigeración).
+
+<img src="/images/configuracion/superficies.png" alt="Configuración de superficies" />
+
+Para crear una superficie:
+1. Haz clic en **Nueva Superficie**
+2. Asígnala a una zona
+3. Escribe el nombre y una descripción
+4. Agrega número de serie si es un equipo (opcional)
+5. Haz clic en **Guardar**
+
+## Agentes de Limpieza
+
+Los agentes son los productos que usas para limpiar y desinfectar. El sistema distingue entre agentes de **limpieza** y de **desinfección**.
+
+<img src="/images/configuracion/agentes.png" alt="Configuración de agentes de limpieza" />
+
+Para crear un agente:
+1. Haz clic en **Nuevo Agente**
+2. Completa:
+   - **Nombre del producto**
+   - **Tipo**: Limpieza o Desinfección
+   - **Concentración de stock**: la concentración del producto tal como viene del proveedor
+   - **Concentración objetivo (PPM)**: la concentración a la que se debe diluir para usar
+3. Haz clic en **Guardar**
+
+<Tip>
+Al crear una [tarea de sanitización](/sanitizacion), el sistema calcula automáticamente cuánta agua necesitas mezclar con el producto para lograr la concentración correcta.
+</Tip>
+
+## Puntos de Agua
+
+Los puntos de agua son los lugares donde tomas muestras para el control de calidad del agua potable (ej: grifo de cocina, tanque de almacenamiento).
+
+<img src="/images/configuracion/puntos-agua.png" alt="Configuración de puntos de agua" />
+
+Para crear un punto:
+1. Haz clic en **Nuevo Punto**
+2. Escribe el nombre del punto y su tipo de ubicación
+3. Haz clic en **Guardar**

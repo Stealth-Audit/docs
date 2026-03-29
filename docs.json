@@ -58,6 +58,15 @@
     "dark": "/logo/dark.svg",
     "width": 120
   },
+  "metadata": {
+    "og:site_name": "ZaniAp Audit",
+    "og:title": "ZaniAp Audit — Gestión de calidad e higiene",
+    "og:description": "Registra temperaturas, sanitización, plagas y agua potable. Cumple normativas y protege tu negocio.",
+    "og:locale": "es_CO",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "ZaniAp Audit",
+    "twitter:description": "La plataforma de control de calidad e higiene para establecimientos de alimentos."
+  },
   "navbar": {
     "links": [
       {

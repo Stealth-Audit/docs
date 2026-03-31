@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "ZaniAp - Documentación",
+  "name": "Documentación",
   "colors": {
     "primary": "#0F766E",
     "light": "#14B8A6",
@@ -78,5 +78,10 @@
   },
   "footer": {
     "socials": {}
-  }
+  },
+  "integrations": {
+    "ga4": {
+        "measurementId": "G-YMLL6679C1"
+    }
+}
 }
